@@ -5,6 +5,7 @@ Manual product classification is time-consuming and inconsistent for large onlin
 The system supports both single-image classification and batch processing for large-scale e-commerce catalogues.
  
 🚀 Features
+
 •	Deep learning-based clothing classification
 •	Multi-label classification support
 •	Single image prediction
@@ -16,6 +17,7 @@ The system supports both single-image classification and batch processing for la
 •	Scalable catalog automation
  
 🧠 Model Details
+
 •	Architecture: MobileNetV2 CNN
 •	Transfer Learning from ImageNet
 •	Multi-label classification using Sigmoid activation
@@ -26,6 +28,7 @@ The model is designed to provide high accuracy while remaining computationally e
 
 
 📊 Dataset
+
 The model is trained on a subset of the DeepFashion-MultiModal dataset.
 Dataset characteristics:
 •	~34,000+ images
@@ -55,6 +58,7 @@ Batch Processing Mode
 5.	Generate reports
  
 🖥️ Streamlit Dashboard
+
 The project includes an interactive Streamlit dashboard with:
 •	Model status indicator
 •	Sensitivity (confidence threshold) control
@@ -64,6 +68,7 @@ The project includes an interactive Streamlit dashboard with:
 •	Downloadable reports
  
 📈 Results
+
 The model achieves:
 •	~96% classification accuracy
 •	High precision and recall
@@ -72,6 +77,7 @@ The model achieves:
 The system significantly reduces manual effort and improves catalog consistency.
  
 🛠️ Tech Stack
+
 •	Python
 •	TensorFlow / Keras
 •	OpenCV
@@ -79,29 +85,8 @@ The system significantly reduces manual effort and improves catalog consistency.
 •	Pandas
 •	Matplotlib
 •	Streamlit
- 
-📂 Project Structure (Example)
-Ecommerce-Clothing-Classification/
-│
-├── model/
-│   └── mobilenet_model.h5
-│
-├── dataset/
-│
-├── app.py
-├── train_model.py
-├── requirements.txt
-└── README.md
- 
-▶️ How to Run
-1️⃣ Clone Repository
-git clone https://github.com/yourusername/ecommerce-clothing-classification.git
-cd ecommerce-clothing-classification
-2️⃣ Install Requirements
-pip install -r requirements.txt
-3️⃣ Run Streamlit App
-streamlit run app.py
- 
+
+  
 🔮 Future Work
 •	Attribute prediction (color, material, style)
 •	Real-time API deployment
